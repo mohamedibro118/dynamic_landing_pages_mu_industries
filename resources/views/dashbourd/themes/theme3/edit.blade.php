@@ -1,0 +1,2 @@
+<x-forms.edit theme="theme3" :pageId="$pageId" :page="$page" :descriptions="$descriptions" :backgrounds="$backgrounds" :logos="$logos"
+:unitTypes="$unitTypes" :colors="$colors"   :units="$units??null" :details="$details??null" :features="$features??null" :gallary="$gallary" :ctas="$ctas" :photos="$photos" :sections="$sections"  />

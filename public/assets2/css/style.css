@@ -1,0 +1,109 @@
+.landing {
+    display: flex;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    font-family: 'Crimson Text', Georgia, serif;
+}
+
+/* img header */
+@media (min-width: 1280px) {
+    .imgheader {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imgheader {
+        max-height: 47px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imgheader {
+        width: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imgheader {
+        height: 47px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imgheader {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .imgheader {
+        font-size: 16px;
+    }
+}
+
+.imgheader {
+    border-radius: 0px;
+    background-color: transparent;
+    transition: max-height .5s;
+    height: 80px;
+    aspect-ratio: 2.7346938775510203 / 1;
+}
+
+.landing-content {
+
+    text-shadow: 2px 2px 2px #0dcaf0
+}
+
+@media (min-width: 1280px) {
+    .landing {
+        min-height: 800px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .landing {
+        background-attachment: fixed;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .landing {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+    .landing {}
+
+}
+
+@media (max-width: 576px) {
+    .landing-content {
+        text-align: center;
+    }
+}
+
+
+
+/* heading */
+.heading {
+    display: flex;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    font-family: 'Crimson Text', Georgia, serif;
+}
